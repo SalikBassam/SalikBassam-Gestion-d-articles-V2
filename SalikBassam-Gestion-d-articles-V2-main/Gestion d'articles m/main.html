@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+<body>
+<h1>Gestion d'articles dans un magasin de vente de produits cosmétiques</h1>
+<div style="display:flex; justify-content: center; gap:20px;">
+    <button id="sorting" class="new" style="margin-top: -10px;"><b>Add</b></button>
+<button id="sorting" style=" margin-top: -10px;"><b>sort</b></button>
+</div>
+<div class="dlt-btn">
+<p>SURE!</p>
+<div class="dltt">
+    <div class="re">YES</div>
+    <div class="gr">NO</div>
+</div>
+</div>
+<div class="inf">
+    <div class="css">OK</div>
+</div>
+<div id="add-pt">
+
+<div class="ext"></div>
+<div class="dark"></div>
+</div>
+<div class="article-inf">
+    <div class="title">
+        <h2>Lorem, ipsum dolor</h2>
+    <p class="closee">X</p>
+    </div>
+    <div class="form">
+    <div class="aa">
+    <label for="Nom">Nom :</label>
+    <input type="text" placeholder="Nom..." id="Nom">
+    <div class="mis" style="color:red;"></div>
+</div>
+<div class="aa">
+    <label for="Marque">Marque :</label>
+    <input type="text" placeholder="Marque..." id="Marque">
+    <div class="mis1" style="color:red;"></div>
+</div>
+<div class="aa">
+    <label for="Nom">Prix :</label>
+    <input type="number" placeholder="Prix..." id="prix">
+    <div class="mis2" style="color:red;"></div>
+    </div>
+    <div class="aa">
+    <label for="date">Date De Production :</label>
+    <input type="date" id="date">
+    <div class="mis3" style="color:red;"></div>
+</div>
+
+<div class="aa">
+
+    <label for="type">Type :</label>
+    <select name="type" id="type">
+        <option value="None">(Choose One)</option>
+        <option value="Hygiène et toilette">Hygiène et toilette</option>
+        <option value="oins esthétiques">Soins esthétiques</option>
+        <option value="Produits solaires">Produits solaires</option>
+        <option value="Beauté des mains et des pieds">Beauté des mains et des pieds</option>
+        <option value="Produits de maquillage">Produits de maquillage</option>
+        <option value="Entretien capillaires">Entretien capillaires</option>
+        <option value="Parfums">Parfums</option>
+    </select>
+    <div class="mis4" style="color:red;"></div>
+</div>
+<div class="ll" style="display:flex;">
+    <p>Promotion:</p>
+    <label for="Nom">Oui</label>
+    <input type="radio" name="prom" id="Nom11" value="Oui">
+    <label for="Nom2">Non</label>
+    <input type="radio" name="prom" id="Nom2" value="Non">
+</div>
+<div class="mis5" style="color:red;"></div>
+<button id="btn">SUBMIT</button>
+<button id="btne">EDIT</button>
+</div>
+</div>
+
+<!-- //////////////////:edit -->
+<!-- <div class="article-inf-edit">
+    <div class="title">
+        <h2>Lorem, ipsum dolor</h2>
+    <p class="closeee">X</p>
+    </div>
+    <div class="form">
+    <div class="aa">
+    <label for="Nom">Nom :</label>
+    <input type="text" placeholder="Nom..." id="Nom1">
+<div class="mis6" style="color:red;"></div>
+</div>
+<div class="aa">
+    <label for="Marque">Marque :</label>
+    <input type="text" placeholder="Marque..." id="Marque1">
+<div class="mis7" style="color:red;"></div>
+</div>
+<div class="aa">
+    <label for="Nom">Prix :</label>
+    <input type="number" placeholder="Prix..." id="prix1">
+<div class="mis8" style="color:red;"></div>
+    </div>
+    <div class="aa">
+    <label for="date">Date De Production :</label>
+    <input type="date" id="date1">
+<div class="mis9" style="color:red;"></div>
+</div>
+
+<div class="aa">
+
+    <label for="type">Type :</label>
+    <select name="type" id="type1">
+        <option value="None">(Choose One)</option>
+        <option value="Hygiène et toilette">Hygiène et toilette</option>
+        <option value="oins esthétiques">Soins esthétiques</option>
+        <option value="Produits solaires">Produits solaires</option>
+        <option value="Beauté des mains et des pieds">Beauté des mains et des pieds</option>
+        <option value="Produits de maquillage">Produits de maquillage</option>
+        <option value="Entretien capillaires">Entretien capillaires</option>
+        <option value="Parfums">Parfums</option>
+    </select>
+<div class="mis10" style="color:red;"></div>
+</div>
+<div class="ll" style="display:flex;">
+    <p>Promotion:</p>
+    <label for="Nom">Oui</label>
+    <input type="radio" name="promm" id="Noms" value="Oui">
+    <label for="Nom2">Non</label>
+    <input type="radio" name="promm" id="Nom2" value="Non" checked>
+</div>
+<div class="mis11" style="color:red;"></div>
+<button id="btn1"  >Edit</button>
+</div>
+</div> -->
+</div>
+
+    <script src="main1.js"></script>
+</body>
+</html>
